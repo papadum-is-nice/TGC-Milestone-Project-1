@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar-logo {
+    width: 40px;
+}
+
+#carouselExampleFade {
+    margin: 30px;
+}
+
+.card-body {
+    text-justify: newspaper;
+}
+
+.container-footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
