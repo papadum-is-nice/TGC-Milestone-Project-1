@@ -1,18 +1,26 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;  
 }
 
 .navbar-logo {
     width: 40px;
 }
 
+.Container-Signature {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    
+}
+
 #carouselExampleFade {
     margin: 30px;
 }
 
-.card-body {
-    text-justify: newspaper;
+.card card-body {
+    text-align: center;
 }
 
 .container-footer {
