@@ -1,12 +1,15 @@
+/* Set overall font */
 body {
     font-family: 'Montserrat', sans-serif;  
 }
 
+/* Navbar */
 .navbar-logo {
     width: 40px;
     border-radius: 10px;
 }
 
+/* JH Signature Image */
 .Container-Signature {
     display: block;
     margin-left: auto;
@@ -15,17 +18,20 @@ body {
     height: 40%;
 }
 
+/* JH Photo Carousel */
 #carouselExampleFade {
     margin: 30px;
 }
 
-.card card-body {
+/* Bio & Video Text */
+.card {
     text-align: center;
 }
 
+/* Footer */
 .container-footer {
     background-color: grey;
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
