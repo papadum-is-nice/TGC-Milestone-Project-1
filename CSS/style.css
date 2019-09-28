@@ -35,8 +35,13 @@ body {
 /* Bio & Video Text */
 .card {
     text-align: center;
+    margin: 20px auto;
 }
 
+#Bio-header {
+    font-weight: bolder;
+    font-size: 25px;
+}
 .vp-shade vp-shade-invisible {    
     top: 0;
     bottom: 0;
@@ -48,15 +53,20 @@ body {
 }
 
 .card-body {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .card-img-top {
     vertical-align: middle;
     order-style: none;
     margin: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px grey;
 }
 
+.bg-primary {
+    background-color:grey!important;
+}
 /* Scroll Up */
 
 #myBtn {
@@ -76,7 +86,7 @@ body {
   }
 
   #myBtn:hover {
-    background-color: #555;
+    background-color: #343A40;
   }
 
 /* Footer */
