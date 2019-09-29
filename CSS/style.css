@@ -18,6 +18,13 @@ body {
     margin-left:20px;
 }
 
+#navlinks li:hover {
+    background-color: none;
+    color: white;
+    font-size:15px;
+    font-weight: bolder;
+  }
+
 /* JH Signature Image */
 .Container-Signature {
     display: block;
