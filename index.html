@@ -13,6 +13,7 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
   <script src="https://kit.fontawesome.com/c404e48afb.js" crossorigin="anonymous"></script>
+  <script src="JS/scripts.js"></script>
 </head>
 
 <body>
@@ -178,7 +179,7 @@
 
   <!-- What other artists say about Hendrix -->
 
-  <H2 id="they-say-section">What they say about Jimi Hendrix</H2>
+  <h3>What they say about Jimi Hendrix</h3>
 
   <div class="card-columns">
     <div class="card d-none d-md-block">
@@ -251,8 +252,39 @@
     </div>
   </div>
 
+  <!-- Videos -->
+  <h3>Rare Videos</h3>
+
+  <iframe src="https://player.vimeo.com/video/265229692" width="640" height="360" frameborder="0"
+    allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <p><a href="https://vimeo.com/265229692">Jimi Hendrix On An Acoustic Guitar(Only known 2 videos RARE)</a> from <a
+      href="https://vimeo.com/user58686183">pippo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+  <!-- Text about EC -->
+  <div class="card">
+    <div class="card-body">
+      Jimi Hendrix On An Acoustic Guitar. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid neque
+      molestiae, totam mollitia maxime itaque non cum! Totam, impedit dolorem asperiores itaque quos in blanditiis
+      recusandae repudiandae magni odit fuga.
+    </div>
+  </div>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/K3K8t6wKjdg" frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- Scroll To Top Button -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <!-- Text about EC -->
+  <div class="card">
+    <div class="card-body">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium consectetur eum sunt explicabo mollitia sequi
+      quos. Beatae reiciendis a perferendis reprehenderit veniam iure, magnam doloribus amet, voluptate dolorem adipisci
+      dignissimos.
+    </div>
+  </div>
+
   <!-- Electric Church Documentary-->
-  <div id=videos-section class="embed-responsive embed-responsive-16by9">
+  <div class="embed-responsive embed-responsive-16by9">
     <iframe src="https://player.vimeo.com/video/311490783" width="640" height="360" frameborder="0"
       allow="autoplay; fullscreen" allowfullscreen></iframe>
     <p><a href="https://vimeo.com/311490783"></a>
@@ -262,22 +294,19 @@
   <!-- Text about EC -->
   <div class="card">
     <div class="card-body">
-          ELECTRIC CHURCH tells the story of the Jimi Hendrix Experience’s involvement as the headliner of the Second
-          Atlanta International Pop Festival, then hailed as the ‘Southern Woodstock'.
-          Jimi Hendrix was the critical component he needed to elevate the three day festival to a major cultural event.
-          ELECTRIC CHURCH features interviews with Hendrix’s Experience band mates Billy Cox and the late Mitch Mitchell
-          as well as Paul McCartney, Steve Winwood, Rich Robinson, Kirk Hammett, Derek Trucks, Susan Tedeschi, and many
-          others. His performance at the Second Atlanta International Pop Festival was not only significant on a musical
-          level,
-          but also in terms of socio-political dynamics. It was assumed that rural audiences would not take kindly to
-          “long-hair” bands, and that black and white artists could not comfortably exist on the same bill; Atlanta Pop
-          set out to challenge those beliefs.Hendrix’s music and message of universal love made him the ideal artist
-          and, appropriately, was the first act booked for the festival. Footage has remained largely unseen until now.
-        </div>
-      </div>
-
-  <!-- Scroll To Top Button -->
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      ELECTRIC CHURCH tells the story of the Jimi Hendrix Experience’s involvement as the headliner of the Second
+      Atlanta International Pop Festival, then hailed as the ‘Southern Woodstock'.
+      Jimi Hendrix was the critical component he needed to elevate the three day festival to a major cultural event.
+      ELECTRIC CHURCH features interviews with Hendrix’s Experience band mates Billy Cox and the late Mitch Mitchell
+      as well as Paul McCartney, Steve Winwood, Rich Robinson, Kirk Hammett, Derek Trucks, Susan Tedeschi, and many
+      others. His performance at the Second Atlanta International Pop Festival was not only significant on a musical
+      level,
+      but also in terms of socio-political dynamics. It was assumed that rural audiences would not take kindly to
+      “long-hair” bands, and that black and white artists could not comfortably exist on the same bill; Atlanta Pop
+      set out to challenge those beliefs.Hendrix’s music and message of universal love made him the ideal artist
+      and, appropriately, was the first act booked for the festival. Footage has remained largely unseen until now.
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer>
@@ -287,6 +316,7 @@
       <i class="fab fa-twitter-square"></i>
     </div>
   </footer>
+
   <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -297,21 +327,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script>
-    var mybutton = document.getElementById("myBtn");
-    window.onscroll = function () { scrollFunction() };
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
+
 
 </body>
 
