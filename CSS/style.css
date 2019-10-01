@@ -82,6 +82,11 @@ h3 {
     box-shadow: 2px 2px 10px grey;
 }
 
+#video-text {
+    text-align: center;
+    box-shadow: 2px 2px 10px grey;
+}
+
 /* Scroll Up */
 #myBtn {
     display: none; 
