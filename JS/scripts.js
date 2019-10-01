@@ -1,4 +1,4 @@
-<script>
+
       //Get the button
       var mybutton = document.getElementById("myBtn");
       
@@ -18,4 +18,4 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
-      </script>
+    
