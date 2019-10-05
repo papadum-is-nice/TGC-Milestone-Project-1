@@ -1,6 +1,7 @@
 /* Set overall font */
 body {
     font-family: 'Montserrat', sans-serif;  
+    font-size: 16px;
 }
 
 /* Navbar */
@@ -12,18 +13,18 @@ body {
 /* Are you experienced... */
 .navbar-brand {
     position: relative;
-    font-size: 15px;
+    font-size: 0.6rem;
     text-justify: center;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
-/* Navlink texts */
-#navlinks li:hover {
+/* Navlink text */
+/* .nav-item {
     background-color: none;
     color: white;
     font-size: 15px;
     font-weight: bolder;
-  }
+  } */
 
 /* JH Signature Image */
 .Container-Signature {
@@ -41,16 +42,15 @@ body {
 }
 
 /* Bio */
-#bio-section, .card-body-news1, .card-body-news2 {
+#bio-section, .card-body-news1, .card-body-news2 .card-bio-text {
     text-align: center;
     margin: 50px auto;
-    font-size:2vw;
 }
 
-h4, h3, h6{
+h4, h3, h6 {
     margin-top: 10px;
-    box-shadow: 2px 2px 10px grey;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 #they-say-section, #videos-section {
@@ -65,8 +65,9 @@ h4, h3, h6{
     margin-bottom: 10px;
 }
 
-#srv-text, #jm-text, #jf-text {
-    font-size:2vw;
+#theysay-text {
+    font-size: 0.2rm;
+    text-align: center;
 }
 
 /* artist photos */
@@ -75,7 +76,11 @@ h4, h3, h6{
     order-style: none;
     margin: 10px;
     border-radius: 25px;
-    box-shadow: 2px 2px 10px grey;
+}
+
+}
+.card-columns {
+    margin-top: 40px;
 }
 
 .bg-primary {
@@ -84,14 +89,12 @@ h4, h3, h6{
 
 h3 {
     text-align: center;
-    margin-top:20px auto;
-    box-shadow: 2px 2px 10px grey;
+    margin-top: 20px auto;
 }
 
 #video-text {
     text-align: center;
-    box-shadow: 2px 2px 10px grey;
-    font-size:2vw;
+    font-size: 1rm;
 }
 
 /* News */
@@ -104,7 +107,6 @@ h3 {
     text-align: right;
     font-size:2vw;
     margin-top: 5px;
-    font-size:2vw;
 }
 
 #card-text1a {
@@ -167,3 +169,4 @@ h3 {
     text-align: center;
     font-size: 40px;
 }
+
