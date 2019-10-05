@@ -41,14 +41,16 @@ body {
 }
 
 /* Bio */
-#bio-section {
+#bio-section, .card-body-news1, .card-body-news2 {
     text-align: center;
     margin: 50px auto;
+    font-size:2vw;
 }
 
-h4 {
+h4, h3, h6{
     margin-top: 10px;
     box-shadow: 2px 2px 10px grey;
+    text-align: center;
 }
 
 #they-say-section, #videos-section {
@@ -61,6 +63,10 @@ h4 {
 
 .card-body {
     margin-bottom: 10px;
+}
+
+#srv-text, #jm-text, #jf-text {
+    font-size:2vw;
 }
 
 /* artist photos */
@@ -85,6 +91,7 @@ h3 {
 #video-text {
     text-align: center;
     box-shadow: 2px 2px 10px grey;
+    font-size:2vw;
 }
 
 /* News */
@@ -95,15 +102,42 @@ h3 {
 
 #card-text1 {
     text-align: right;
-    margin-bottom: 40px;
+    font-size:2vw;
+    margin-top: 5px;
     font-size:2vw;
 }
 
-#card-text2 {
+#card-text1a {
     text-align: right;
-    margin-top: 20px;
+    font-size:2vw;
+    margin-top: 40px;
+}
+
+#news-img-2 {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+
+#card-text2 {
+    text-align: left;
     font-size:2vw;
 }
+
+#card-text2a {
+    text-align: left;
+    font-size:2vw;
+}
+
+#card-text3 {
+    text-align: left;
+    font-size:2vw;
+    margin-top: 5px;
+}
+
+#card-text3a {
+    text-align: left;
+    font-size:2vw;
+    margin-top: 40px;
 
 /* Scroll Up */
 #myBtn {
