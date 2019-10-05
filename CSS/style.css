@@ -98,13 +98,13 @@ h4, h3, h6 {
 
 #card-text1 {
     text-align: right;
-    font-size:2vw;
+    font-size: 2vw;
     margin-top: 5px;
 }
 
 #card-text1a {
     text-align: right;
-    font-size:2vw;
+    font-size: 2vw;
     margin-top: 40px;
 }
 
@@ -114,25 +114,24 @@ h4, h3, h6 {
   }
 
 #card-text2 {
-    text-align: left;
-    font-size:2vw;
+    text-align: center;
+    font-size: 2vw;
 }
 
 #card-text2a {
-    text-align: left;
-    font-size:2vw;
+    text-align: center;
+    font-size: 2vw;
 }
 
 #card-text3 {
     text-align: left;
-    font-size:2vw;
+    font-size: 2vw;
     margin-top: 5px;
 }
 
 #card-text3a {
     text-align: left;
-    font-size:2vw;
-    margin-top: 40px;
+    font-size: 2vw;
 }
 
 /* Scroll Up */
@@ -159,8 +158,16 @@ h4, h3, h6 {
 /* Footer */
 .container-footer {
     background-color: rgb(78, 77, 77);
-    color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 0.7rem;
+    color: white;
+}
+.container-footer i {
+    color: white;
+    padding: 0 5px;
 }
 
+.footersocialmedia {
+padding-top: 10px;
+padding-bottom: 10px;
+}
