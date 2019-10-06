@@ -52,6 +52,12 @@ h3, h4 {
     text-justify: center;
 }
 
+h5 {
+    font-weight: bold;
+}
+
+
+
 /* artist photos */
 .card-img-top {
     vertical-align: middle;
