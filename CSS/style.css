@@ -4,16 +4,16 @@ body {
     font-size: 16px;
 }
 
-/* Navbar */
+/* Navbar JH logo */
 .navbar-logo {
     width: 40px;
     border-radius: 10px;
 }
 
-/* Are you experienced... */
+/* Navbar Are you experienced... text */
 .navbar-brand {
-    position: relative;
     font-size: 0.6rem;
+    position: relative;
     text-justify: center;
     margin-left: 10px;
 }
@@ -27,46 +27,32 @@ body {
     height: 40%;
 }
 
-/* JH Photo Carousel */
+/* Carousel Photos of Hendrix  */
 #carouselExampleFade {
     margin: 30px;
     box-shadow: 2px 2px 10px grey;
 }
 
 /* Bio */
-#bio-section, {
+#bio-section {
     text-align: center;
     margin: 50px auto;
 }
 
-h4, h3, h6 {
+/* Bio & Videos sub-headers */
+h3, h4 {
     margin-top: 10px;
     text-align: center;
     font-size: 1.2rem;
+    font-weight: bolder;
 }
 
+/* They Say & Videos header */
 #they-say-section, #videos-section {
     text-justify: center;
 }
 
-.card {
-    margin-left: 20px 20px;
-}
-
-.card-body {
-    margin-bottom: 10px;
-}
-
-#theysay-text {
-    font-size: 0.2rm;
-    text-align: center;
-}
-
 /* artist photos */
-
-.container {
-    text-align: center;
-}
 .card-img-top {
     vertical-align: middle;
     margin: 20px auto;
@@ -74,14 +60,12 @@ h4, h3, h6 {
     box-shadow: 2px 2px 10px grey;
 }
 
-.card-columns {
-    margin-top: 40px;
-}
-
+/* Artist JM comment*/
 .bg-primary {
-    background-color:grey!important;
+    background-color:rgb(78, 77, 77)!important;
 }
 
+/* Videos */
 #video-text {
     text-align: center;
     font-size: 1rm;
@@ -91,9 +75,10 @@ h4, h3, h6 {
 .card-body-news {
     text-align: center;
     margin: 50px;
+    
 }
 #news-img-1 {
-    opacity: 0.5;
+    opacity: 0.6;
     filter: alpha(opacity=50);
   }
 
@@ -110,7 +95,7 @@ h4, h3, h6 {
 }
 
 #news-img-2 {
-    opacity: 0.5;
+    opacity: 0.6;
     filter: alpha(opacity=50);
   }
 
