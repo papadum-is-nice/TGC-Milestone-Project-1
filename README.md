@@ -73,7 +73,7 @@ Platforms:
 * MacBook Pro
     * Google Chrome
     * Safari
-* MacBook Air    
+* MacBook Air  
     * Google Chrome
     * Safari
 * iPhone7+
@@ -83,6 +83,8 @@ Platforms:
 I wasn't able to test on Android phones because all the products I own are from Apple and I'm surrounded by Apple fans as well. 
 
 However, I used Google Chrome's developer tools to test responsiveness for devices including Galaxy S5, Pixel 2, ipad Pro and iphones of all sizes.
+
+### While working this webpage off of my wife's laptop, I realised that my commits to Github were in her Github's username. Please disregard the 2nd contributor in my Github account  ###
 
 ## Deployment ##
 This webpage was created using Visual Studio Code IDE. Git was used for version control and pushed to a repository hosted on 
