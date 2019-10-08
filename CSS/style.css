@@ -57,7 +57,21 @@ h4 {
     font-weight: bolder;
 }
 
+#bio-section .card {
+    border: none;
+}
+
+#bio-section .card-body {
+    /* background: red; */
+    padding-top: 0;
+}
+
 /* They Say & Videos header */
+.they-say {
+    border: none;
+    margin: 20px auto;
+}
+
 #they-say-section, #videos-section {
     text-justify: center;
 }
@@ -74,7 +88,7 @@ p {
 /* artist photos */
 .card-img-top {
     vertical-align: middle;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     border-radius: 25px;
     box-shadow: 2px 2px 10px grey;
 }
@@ -140,6 +154,26 @@ p {
 #card-text3a {
     text-align: left;
     font-size: 2vw;
+}
+
+/* Videos */
+.card-video {
+    border: none;
+    margin-top: 40px;
+}
+
+.videos-section {
+    position: relative;
+    top: -10px;
+}
+
+.card-video-text {
+    border: none;
+}
+
+/* News */
+.card-news {
+    border: none;
 }
 
 /* Scroll Up */
