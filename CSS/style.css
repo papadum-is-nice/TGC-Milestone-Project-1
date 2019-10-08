@@ -87,15 +87,18 @@ p {
 /* Videos */
 #video-text {
     text-align: center;
-    font-size: 1rm;
 }
 
 /* News */
+.groovy-children {
+    border: none;
+}
+
 .card-body-news {
     text-align: center;
     margin: 50px;
-    
 }
+
 #news-img-1 {
     opacity: 0.6;
     filter: alpha(opacity=50);
