@@ -62,7 +62,6 @@ h4 {
 }
 
 #bio-section .card-body {
-    /* background: red; */
     padding-top: 0;
 }
 
@@ -99,6 +98,10 @@ p {
 }
 
 /* Videos */
+.card-earlydays {
+    border: none;
+}
+
 #video-text {
     text-align: center;
 }
@@ -176,6 +179,10 @@ p {
     border: none;
 }
 
+.groovy-children {
+    border: none;
+}
+
 /* Scroll Up */
 #myBtn {
     display: none; 
@@ -207,7 +214,6 @@ p {
 .container-footer i {
     color: white;
     padding: 0 5px;
-
 }
 
 .footersocialmedia {
