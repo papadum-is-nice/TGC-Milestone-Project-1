@@ -18,6 +18,10 @@ body {
     margin-left: 10px;
 }
 
+.nav-link {
+    text-align: center;
+}
+
 /* JH Signature Image */
 .Container-Signature {
     display: block;
@@ -40,7 +44,13 @@ body {
 }
 
 /* Bio & Videos sub-headers */
-h3, h4 {
+h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h4 {
     margin-top: 10px;
     text-align: center;
     font-size: 1.2rem;
@@ -160,9 +170,30 @@ p {
 .container-footer i {
     color: white;
     padding: 0 5px;
+
 }
 
 .footersocialmedia {
-padding-top: 10px;
+padding-top: 20px;
 padding-bottom: 10px;
+}
+
+.footertext p {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 375px) {
+.navbar-text {
+    font-size: 0.8rem;
+}
+}
+
+@media (max-width: 991px) {
+.navbar-nav li:first-child {
+    margin-top: 20px;
+}
+
+.navbar-nav li:last-child {
+    margin-bottom: 40px;
+}
 }
