@@ -32,3 +32,36 @@ Below are some user stories that I want to achieve:
 3. I want everyone to know how influential he was in shaping the music careers of many future musicians through their testimonies of him
 4. For medium and large screens, I want to include an introduction of the story behind one of his greatest albums 'Are You Experienced?' and feature the shows that are produced based on this album
 5. I want users to be able to find more news about Hendrix from the social media sites in the footer
+
+## Features ##
+* A navbar brings the user easily to other parts of the page via links provided
+* A carousel with pictures showing Hendrix being candid
+* A reponsive bootstrap card section with pictures featuring many world renowned and famous musicians' quotes on how Hendrix shaped their music career
+* Vintage, obscure and amazing videos on Hendrix's performances and documentary on this legendary guitarist
+* A lengthy account of the stories behind the recording of one of his greatest albums 'Are You Experienced?' and the aftermath of it's influence for medium and large screens
+
+## Technologies Used ##
+Here are a list of the programming languages, technologies and frameworks used for this project:
+* HTML5
+* CSS3
+* JavaScript
+* JQuery 
+* Markdown
+    * Used to write the README.md file.
+* [Bootstrap4.3.1 framework](https://getbootstrap.com/)
+    * The webpage uses boostrap framework for it's grid system, cards and responsive navigation bar.
+* [Visual Studio Code](https://code.visualstudio.com/)
+    * Visual Studio Code was the IDE of choice used to write the codes for this webpage.
+* [Google Fonts](https://fonts.google.com/)
+* Git
+    * Version control
+* [Github](https://github.com)
+* [Font Awesome](https://fontawesome.com/)
+    * For social media icons and Glyphicons
+* Google Chrome Developer Tools
+* [Am I Responsive?](http://ami.responsivedesign.is/?url=#)
+    * For checking responsiveness across small, medium and large screen sizes
+* [Gifox](https://gifox.io/)
+    * To record a gif showing responsiveness of screen sizes
+
+    
