@@ -23,44 +23,52 @@ The wireframes can be view via this [link](assests/wireframes).
 ## UX ## 
 My design for this webpage is a minimalistic approach of a black and grey theme with simple but elegant features. I want to display some interesting information about my favourite artiste and have a section for some of my other favorite artistes sharing about how Jimi Hendrix had influenced them and their music. 
 
-I used many black and white photos with just a few coloured ones to give this webpage some contrast. I want to achieve producing a webpage that is aesthetically pleasing and also easy to navigate around, with photos and videos which I personally love and picked out.
+I used many black and white photos with just a few coloured ones to give this webpage some contrast. At the end of it all, I want to achieve a webpage that is both aesthetically pleasing and easy to navigate, with photos and videos which I personally love and picked out.
 
 ## User Stories ##
 Below are some user stories that I want to achieve:
 1. I want a modern, clean looking and responsive webpage filled with information of his life
-2. Jimi Hendrix is a legend in my books and I want to share his musical genius to the world through pictures and videos of him
+2. Jimi Hendrix is an artist that I have looked up to since my teenage years and I want to share his musical genius to the world through the lesser seen photos and videos of him. 
 3. I want everyone to know how influential he was in shaping the music careers of many future musicians through their testimonies of him
 4. For medium and large screens, I want to include an introduction of the story behind one of his greatest albums 'Are You Experienced?' and feature the shows that are produced based on this album
-5. I want users to be able to find more news about Hendrix from the social media sites in the footer
+5. I want users to be able to find more news about Hendrix from the social media sites in the footer.
 
 ## Features ##
-* A navbar brings the user easily to other parts of the page via links provided
-* A carousel with pictures showing Hendrix being candid
-* A reponsive bootstrap card section with pictures featuring many world renowned and famous musicians' quotes on how Hendrix shaped their music career
-* Vintage, obscure and amazing videos on Hendrix's performances and documentary on this legendary guitarist
-* A lengthy account of the stories behind the recording of one of his greatest albums 'Are You Experienced?' and the aftermath of it's influence for medium and large screens
+* A navbar brings the user easily to other parts of the page via links provided.
+* A carousel with pictures showing Hendrix being candid and charming as he was known to be.
+* A reponsive bootstrap card section with pictures featuring many world renowned and famous musicians' quotes on how Hendrix shaped their music career.
+* Vintage, obscure and amazing videos on Hendrix's performances and documentary on this legendary guitarist.
+* A lengthy account of the stories behind the recording of one of his greatest albums 'Are You Experienced?' and the aftermath of it's influence for medium and large screens.
 
 ## Technologies Used ##
 Here are a list of the programming languages, technologies and frameworks used for this project:
 * HTML5
 * CSS3
 * JavaScript
-* JQuery 
 * Markdown
     * Used to write the README.md file.
+
 * [Bootstrap4.3.1 framework](https://getbootstrap.com/)
     * The webpage uses boostrap framework for it's grid system, cards and responsive navigation bar.
+    
 * [Visual Studio Code](https://code.visualstudio.com/)
     * Visual Studio Code was the IDE of choice used to write the codes for this webpage.
+    
 * [Google Fonts](https://fonts.google.com/)
+
 * Git
     * Version control
+    
 * [Github](https://github.com)
+
 * [Font Awesome](https://fontawesome.com/)
     * For social media icons and Glyphicons
+    
 * Google Chrome Developer Tools
+
 * [Am I Responsive?](http://ami.responsivedesign.is/?url=#)
     * For checking responsiveness across small, medium and large screen sizes
+    
 * [Gifox](https://gifox.io/)
     * To record a gif showing responsiveness of screen sizes
 
@@ -68,26 +76,26 @@ Here are a list of the programming languages, technologies and frameworks used f
 I conducted testing across different platforms and web browsers in order to make sure the website worked correctly, and looked great across each one. I also asked friends to test across their own devices and to give me feedback.
 
 Platforms:
-* iPad 3
+* iPad 3 (I know it's old but it's the only ipad I have :( )
     * Safari
 * MacBook Pro
     * Google Chrome
     * Safari
-* MacBook Air  
+* MacBook Air    
     * Google Chrome
     * Safari
 * iPhone7+
     * Google Chrome
     * Safari
 
-I wasn't able to test on Android phones because all the products I own are from Apple and I'm surrounded by Apple fans as well. 
+I wasn't able to test on Android phones because almost all of the tech I own are from Apple. 
 
 However, I used Google Chrome's developer tools to test responsiveness for devices including Galaxy S5, Pixel 2, ipad Pro and iphones of all sizes.
 
-### While working this webpage off of my wife's laptop, I realised that my commits to Github were in her Github's username. Please disregard the 2nd contributor in my Github account  ###
+Disclaimer: I brought my wife's macbook air to work by mistake on the 8th of Oct to finish up my webpage and realised later that my commits to Github were in her Github's username. Please disregard the 2nd contributor in my Github account. :P
 
 ## Deployment ##
-This webpage was created using Visual Studio Code IDE. Git was used for version control and pushed to a repository hosted on 
+This webpage was created using Visual Studio Code IDE as I was given a spare cloud 9 account that wasn't in my name. Additionally, the auto logout feature on cloud 9 was so annoying that i decided to dump it totally. Git was used for version control and pushed to a repository hosted on 
 [Github](https://github.com).
 
 The website is deployed using Github pages and you can access the page [here](https://papadum-is-nice.github.io/TGC-Milestone-Project-1/).
@@ -111,7 +119,7 @@ If you wish to run this code locally then please follow the following steps:
     * Used to create the various cards
 
 ### Images ###
-All images for this web site were downloaded from various Jimi Hendrix sites for educational use and edited on Adobe Photoshop. Links to the images can be found below.
+All images for this web site were downloaded from various Jimi Hendrix sites for educational use and resized on Adobe Photoshop. Links to the images can be found below.
 
 Navbar
 * [Jimi Head Logo.jpg](https://images-na.ssl-images-amazon.com/images/I/41lstg2btXL._AC_.jpg)
