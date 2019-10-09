@@ -18,7 +18,8 @@ This fan page will include a bio, testimonial, video and news sections to give t
 ## Wireframes ##
 I created wireframes by hand for the mobile-first approach and then went on to medium and larger screens. 
 
-The wireframes can be view via this [link](assests/wireframes).
+The mobile wireframe can be view via this [link](https://github.com/papadum-is-nice/TGC-Milestone-Project-1/blob/master/Images/Mobile.jpg).
+And the tablet/laptop wireframe can be view via this [link](https://github.com/papadum-is-nice/TGC-Milestone-Project-1/blob/master/Images/Tablet.jpg).
 
 ## UX ## 
 My design for this webpage is a minimalistic approach of a black and grey theme with simple but elegant features. I want to display some interesting information about my favourite artiste and have a section for some of my other favorite artistes sharing about how Jimi Hendrix had influenced them and their music. 
